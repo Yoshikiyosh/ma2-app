@@ -9,6 +9,8 @@ name: CI
 
 on:
   workflow_dispatch:   # 手動実行もできるようにしておく
+  push:
+    branches: [main]
 
 
 permissions:
